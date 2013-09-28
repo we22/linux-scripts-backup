@@ -1,8 +1,8 @@
 #!/bin/sh
 
-. /usr/local/sbin/backup_functions.sh
+. backup_functions.sh
 BACKUP_EXPIRES_DAYS=365
-# ðåçåðâ 30Ãá
+# ÐžÐ±ÑŠÐµÐ¼ Ñ…Ñ€Ð°Ð½Ð¸Ð»Ð¸Ñ‰Ð° 30GB
 RESERVE_G=30
 BACKUP_MAIN_DIR='/backup'
 VERIFY_BACKUP_MOUNTED='yes'
